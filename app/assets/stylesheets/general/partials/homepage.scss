@@ -1,0 +1,17 @@
+.index
+{
+	display: inline-block;
+	max-width: 100%;
+}
+
+.home_news
+{
+	@include span(8 of 10);
+	margin-left: span(1 of 10);
+	margin-top: 20px;
+
+	h2
+	{
+		margin-bottom: 40px;
+	}
+}
